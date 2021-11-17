@@ -40,6 +40,12 @@ div.resultado{
 
 .inputs{
     margin-left: 1rem;
+    
+}
+
+.inputss{
+    margin-left: 1rem;
+    
 }
 
 #botao{
@@ -53,13 +59,14 @@ button{
     margin-left: 2.5rem;
     cursor: pointer;
     border: none;
-    background-color: rgb(30, 142, 187);
+    background-color: rgb(13, 57, 75);
     font-size: large;
     border-radius: 5px;
 }
 
 button:hover{
-    background-color: rgb(13, 57, 75);
+    background-color: rgb(30, 142, 187);
+    transition-delay: 0.3s;
 
 }
 
@@ -78,4 +85,3 @@ button:hover{
     margin-top: 0.5rem;
     border-radius: 5px;
 }
-
