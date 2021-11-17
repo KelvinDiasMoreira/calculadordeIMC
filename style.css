@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto:ital,wght@0,500;1,300&display=swap');
+
+body{
+    background-color: rgb(13, 57, 75); 
+    height: 180rem;
+    font-family: "Roboto", sans-serif;
+}
+
+*{
+    max-width: 640px;
+}
+
+div.conteudo{
+    position: absolute;
+    margin-left: 25rem;
+    margin-top: 1rem;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 500px;
+    height: 700px;
+    box-shadow: 5px 10px 50px black;
+}
+
+.conteudo h1{
+    margin-left: 1rem;
+}
+
+div.imc{
+    position: relative;
+    left: -16rem;
+    display: inline-block;
+}
+
+div.resultado{
+    position: relative;
+    left: 5rem;
+    margin-left: 10rem;
+    float: left;
+}
+
+.inputs{
+    margin-left: 1rem;
+}
+
+#botao{
+    position: relative;
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
+
+button{
+    width: 25rem;
+    margin-left: 2.5rem;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(30, 142, 187);
+    font-size: large;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(13, 57, 75);
+
+}
+
+#containerResult{
+    position: relative;
+    margin-left: 5rem;
+    height: 2rem;
+    width: 20rem;
+    border-radius: 5px;
+
+}
+
+
+#resultadoImc{
+    text-align: center;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+}
+
