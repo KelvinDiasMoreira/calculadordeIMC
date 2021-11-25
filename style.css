@@ -2,22 +2,24 @@
 
 body{
     background-color: rgb(13, 57, 75); 
-    height: 180rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     font-family: "Roboto", sans-serif;
 }
 
-*{
-    max-width: 640px;
+p{
+    border-radius: 5px;
+
 }
 
+
 div.conteudo{
-    position: absolute;
-    margin-left: 25rem;
     margin-top: 1rem;
     background-color: aliceblue;
     border-radius: 10px;
-    width: 500px;
-    height: 700px;
     box-shadow: 5px 10px 50px black;
 }
 
@@ -25,26 +27,22 @@ div.conteudo{
     margin-left: 1rem;
 }
 
-div.imc{
-    position: relative;
-    left: -16rem;
-    display: inline-block;
-}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
 
-div.resultado{
-    position: relative;
-    left: 5rem;
-    margin-left: 10rem;
-    float: left;
 }
 
 .inputs{
     margin-left: 1rem;
+    text-align: center;
     
 }
 
 .inputss{
     margin-left: 1rem;
+    text-align: center;
     
 }
 
@@ -52,6 +50,7 @@ div.resultado{
     position: relative;
     margin-top: 0.5rem;
     padding: 1rem;
+    margin-left: -2.5rem;
 }
 
 button{
@@ -72,7 +71,7 @@ button:hover{
 
 #containerResult{
     position: relative;
-    margin-left: 5rem;
+    margin-left: 3.5rem;
     height: 2rem;
     width: 20rem;
     border-radius: 5px;
@@ -84,4 +83,11 @@ button:hover{
     text-align: center;
     margin-top: 0.5rem;
     border-radius: 5px;
+}
+
+
+@media screen and (max-width: 700px){
+    .info{
+        flex-direction: column;
+    }
 }
